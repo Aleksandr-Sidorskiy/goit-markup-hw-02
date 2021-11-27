@@ -1,0 +1,214 @@
+/* основной цвет текста #757575 */
+/* цвет заголовка #212121 */
+/* цвет логотипа #2196F3 */
+/* вторичный цвет #FFFFFF */
+/* цвет фона #E5E5E5 */
+/* цвет фона подвала #2F303A  */
+/* цвет фона "Наша команда" #F5F4FA */
+
+:root {
+  --theme-color: #e5e5e5;
+  --text-primery: #757575;
+  --text-secondary: #212121;
+  --fone-color: #2196F3;
+}
+body {
+  font-family: "Roboto";
+  background-color: var(--theme-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header{
+  background-color: #ffffff;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  line-height: 100%;
+  color: var(--text-secondary);
+}
+
+.primery-logo {
+  font-family: "Raleway";
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  line-height: 100%;
+  color: var(--fone-color);
+}
+.nav-link a {
+  color: var(--text-secondary);
+  font-style: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 2%;
+}
+.nav-link a:hover,
+.nav-link a:focus {
+  color: var(--fone-color);
+}
+.header-kontacts {
+  color: var(--text-primery);
+  font-style: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+}
+.header-kontacts:hover,
+.header-kontacts:focus {
+  color: var(--fone-color);
+}
+
+
+
+.main-heading {
+  font-style: Black;
+  font-size: 44px;
+  line-height: 1.36;
+  line-height: 116%;
+  vertical-align: Top;
+  letter-spacing: 6%;
+  fill: Solid;
+  color: #ffffff;
+}
+.primery-section {
+  width: 1600px;
+  height: 600px;
+  background-color: rgba(47, 48, 58, 0.4);
+  background-image: url(../images/background-img.png);
+}
+.button-order-servise{
+  color:#FFFFFF;
+  background-color:var(--fone-color);
+  Font-style: Bold;
+  Font-size: 16px;
+  Line-height: 1.85;
+  Line-height: 160%;
+  Vertical-align: Center;
+  border: transparent;
+}
+.second-heading{
+  color: var(--text-secondary);
+  Font-style: Bold;
+  Font-size: 36px;
+  Line-height: 1.16;
+  Line-height: 100%;
+}
+.list-heading{
+  display: none;
+}
+.list-peculiarities{
+  color: var(--text-secondary);
+  Font-style: Bold;
+  Font-size: 14px;
+  Line-height: 1.14;
+  Line-height: 100%;
+}
+.list-peculiarities-text{
+color: var(--text-primery);
+Font-style: Regular;
+Font-size: 14px;
+Line-height: 1.71;
+Line-height: 146%;
+}
+.comand>li>h3{
+  color: var(--text-secondary);
+  Font-style: Medium;
+  Font-size: 16px;
+  Line-height: 1.18;
+  Line-height: 100%;
+}
+.comand>li>p{
+  color: var(--text-primery);
+  Font-size: 16px;
+  Line-height: 19px;
+  Line-height: 100%;
+}
+.our-comand{
+  background-color: #F5F4FA;
+}
+.logo-blue{
+  color: var(--fone-color);
+  Font-family: "Raleway";
+  Font-style: Bold;
+  Font-size: 26px;
+  Line-height: 1.19;
+}
+.logo-white{
+  color: #ffffff;
+  Font-family: "Raleway";
+  Font-style: Bold;
+  Font-size: 26px;
+  Line-height: 1.19;
+}
+.footer{
+  background-color: #2F303A;
+}
+.addres{
+  color: #FFFFFF;
+  Font-size: 14px;
+  Line-height: 1.71;
+  Line-height: 146%;
+  Vertical-align: Top;
+  Letter-spacing: 3%;
+}
+.footer-kontakts{
+  color: rgba(255, 255, 255, 0.6);
+  Font-size: 14px;
+  Line-height: 1.71;
+  Line-height: 146%;
+  Vertical-align: Top;
+  Letter-spacing: 3%;
+}
+.join{
+  color: #FFFFFF;
+  Font-style: 700;
+  Font-size: 14px;
+  Line-height: 1.14;
+  Line-height: 100%;
+  Vertical-align: Top;
+  Letter-spacing: 3%;
+}
+.projekt button{
+color: var(--text-secondary);
+background-attachment: #F5F4FA;
+border: transparent;
+Font-style: Medium;
+Font-size: 16px;
+Line-height: 1.62;
+Line-height: 139%;
+Vertical-align: Top;
+Letter-spacing: 3%;
+}
+.projekt button:hover, 
+.projekt button :focus{
+  color: #FFFFFF;
+  background-color: var(--fone-color);
+}
+.projekt-box h2{
+  color: var(--text-secondary);
+  Font-style: Bold;
+  Font-size: 18px;
+  Line-height: 2;
+  Line-height: 171%;
+  Vertical-align: Top;
+  Letter-spacing: 6%;
+}
+.projekt-box p{
+  color: var(--text-primery);
+  Font-style: Regular;
+  Font-size: 16px;
+  Line-height: 1.87;
+  Line-height: 160%;
+}
+.main-portfolio{
+  background-color: #FFFFFF;
+}
